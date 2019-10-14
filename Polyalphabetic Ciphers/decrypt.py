@@ -15,7 +15,3 @@ def convertToNum():
     return convertedText
 
 encodedMessage = convertToNum()
-
-def decryptMessage():
-    for x in range(len(encodedMessage)):
-        
