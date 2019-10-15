@@ -1,7 +1,7 @@
 import numpy as np
 import math
 
-message = "TWV CFJ FAH XOC PBH ZMH ZZQ BUX SXI DLH VSZ RFX YIG KMZ ZHW GLQ QMO IQF RFK HVM KLQ GIC HYI IXS PCI HQK PRU GVU GJM DCI FAL VSZ WME VAS JXZ HUM BKI DXZ XWE KBH ZMH ZZQ BUX SXI DUB XVV CFA HXG GVQ MAC WEX QKL WHZ RST JSB KVM WPG HZS Z"
+message = "AJF YYD BZA BAR RJY QKB KXS KNB SOS FQA FSL YFK NOA QQM CSB ZSW YNB FAF EBZ SNL EBZ SIS RRY FHS FKN OJF KNW KJR SBZ SFS KQA RYI SQB NYN LYF KNO JYQ KBK XSK NBS OSF LMB IZY WAF SQ"
 
 message = message.replace(" ", "")
 
@@ -27,4 +27,6 @@ def ICScore(my_list, listLength):
     sumNums = sum(squaredNums)
     return (sumNums / (messageLength**2))
 
-print(ICScore(countLetterFrequency(), messageLength))
+print(f"Letter frequencies: {countLetterFrequency()}")
+
+print(f"IC Score: {ICScore(countLetterFrequency(), messageLength)}")
