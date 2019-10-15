@@ -17,7 +17,7 @@ Toolkit for cryptography problems implemented in python
    - Decryption for affine cipher given alpha and beta values
 
 ## Hills System
-  ## Note all encryption/decryption is for 2x2 key matrix
+  #### Note all encryption/decryption is for 2x2 key matrix
   - find_keys.py
     - Runs through the different options for finding the key of a message encrypted using hills cipher
     - Takes a 5 letter word that user believes will appear within the text
