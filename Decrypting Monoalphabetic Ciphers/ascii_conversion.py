@@ -13,6 +13,6 @@ def convertUpperCase(message):
 def convertToText(num_list):
     convertedList = []
     for x in range(len(num_list)):
-        convertedList.append(chr(num_list[x]+64))
+        convertedList.append(chr(num_list[x]+65))
     convertedList = ''.join(convertedList)
     return convertedList
