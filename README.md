@@ -38,6 +38,11 @@ Toolkit for cryptography problems implemented in python
   - IC_score.py
     - calculates the IC score of a string to help decide if it is monoalphabetic or polyalphabetic
 
+## Substitution Ciphers
+  - Caeser.py
+    - A cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
+  - A1Z26.py
+    - A cipher where each alphabet letter is replaced by its number in the alphabet.
 ## Set Theory, Integers Modulo n and Rings and Fields
   - OneToOne.py
     - Tests to see if an encryption method (exponential or multiplicative) has one-to-one correlation
